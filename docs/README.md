@@ -1,0 +1,3 @@
+# Placeholder
+
+This file keeps the docs directory in version control.
