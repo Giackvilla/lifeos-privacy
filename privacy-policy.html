@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeOS — Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #000;
+      color: #e5e5e5;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 48px 24px 80px;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 28px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .meta { font-size: 13px; color: #666; margin-bottom: 40px; }
+    h2 { font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;
+         font-weight: 700; color: #44b556; margin: 32px 0 10px; }
+    p { color: #aaa; margin-bottom: 12px; }
+    a { color: #44b556; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="meta">LifeOS &nbsp;·&nbsp; Last updated: May 2026</p>
+
+  <h2>What this app is</h2>
+  <p>LifeOS is a personal daily-tracking app built for private use by a single individual. It is not a commercial product and is not distributed to the public.</p>
+
+  <h2>Data collection</h2>
+  <p>LifeOS does not collect, transmit, or share any personal data with third parties. All data you enter (activity logs, meal records, study sessions) is stored locally on your device using your browser's localStorage. No analytics, no tracking, no advertising.</p>
+
+  <h2>Whoop integration</h2>
+  <p>If you connect your Whoop account, LifeOS uses the Whoop API to read your recovery, sleep, strain, and workout data. This data is fetched on your request and stored locally on your device only. It is never sent to any server controlled by LifeOS, and it is never shared with any third party.</p>
+  <p>Whoop OAuth tokens are stored locally on your device. You can revoke access at any time from your Whoop account settings or from the LifeOS Settings page.</p>
+
+  <h2>No server-side storage</h2>
+  <p>LifeOS has no user accounts and no database. Vercel serverless functions are used solely as a proxy to complete the Whoop OAuth token exchange (required because Whoop's API blocks direct browser requests). No data is logged or retained by these functions.</p>
+
+  <h2>Contact</h2>
+  <p>This is a personal project. For any questions, open an issue on the project repository or contact the owner directly.</p>
+</body>
+</html>
